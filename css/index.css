@@ -44,6 +44,7 @@ a{
     color: #986536;
 
 }
+
 /*.header title*/
 .header .logo_title h2{
     letter-spacing: .12rem;
@@ -126,7 +127,37 @@ section span.middle{
     padding: .1rem;
 }
 
-
-
+/*ask*/
+section.ask{
+    position: relative;
+    left:50% ;
+    width: 4.65rem;
+    margin-left: -2.325rem;
+}
+section.ask span.ask_title{
+    display: block;
+    height: .88rem;
+    line-height: .88rem;
+    text-align: center;
+    font-size: .3rem;
+    font-weight: 900;
+    color: #6699ff;
+    margin-left: -.125rem;
+}
+section.ask span.bottom_hr{
+    display: block;
+    position: absolute;
+    top:.59rem;
+    width: 4.5rem;
+    text-align: center;
+    border-bottom: 3px solid #94b6ff;
+}
+section.ask img{
+    position: absolute;
+    top:.46rem;
+    right:-.15rem;
+    width: .24rem;
+    height: .27rem;
+}
 
 
