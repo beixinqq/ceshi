@@ -457,23 +457,72 @@ section.img_title img:nth-child(4){
 section.big_title3{
     position: relative;
     left: 50%;
-    margin-top: 3.1rem;
+    vertical-align: bottom;
+    margin-top: 3.0rem;
     width: 4.8rem;
     margin-left: -2.4rem;
     margin-bottom: .3rem;
     height: .41rem;
-    line-height: .41rem;
     text-align: center;
-    font-size: .30rem;
+    font-size: .26rem;
     color: #6898fe;
     font-weight: 900;
 }
-section.big_title3:before{
-    content: '';
-    position: absolute;
-    top:0.01rem;
-    left: -.3rem;
-    background: url("../img/start1.png") no-repeat 0 0;
+section.big_title3 img{
+    float: left;
+    margin-right: 0.01rem;
     width: .3rem;
     height: .36rem;
+}
+section.big_title3 span{
+    position: relative;
+    top:.08rem;
+}
+
+/*nav_thing*/
+section.nav_thing{
+    width: 100%;
+    height: 5.30rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/*titeleRL*/
+section.titleRL{
+    position: relative;
+    left: 50%;
+    margin-top: .33rem;
+    margin-bottom: .33rem;
+    width: 4.29rem;
+    /*border: 1px solid red;*/
+    margin-left: -2.145rem;
+    height: .6rem;
+}
+section.titleRL a{
+    width: 1.93rem;
+    height: .58rem;
+    line-height: .58rem;
+    color: #ffffff;
+}
+section.titleRL a img{
+    float: left;
+    margin-top: .15rem;
+    margin-left: 0.04rem;
+    width: .61rem;
+    height: .3rem;
+}
+section.titleRL a h2{
+    font-size: .3rem;
+}
+section.titleRL a.left{
+    float: left;
+    /*border: 1px solid blue;*/
+    background: #f27700;
+
+
+}
+section.titleRL a.right{
+    float: right;
+    border: 1px solid blue;
+    background: #008adf;
 }
