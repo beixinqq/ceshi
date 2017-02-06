@@ -523,6 +523,19 @@ section.titleRL a.left{
 }
 section.titleRL a.right{
     float: right;
-    border: 1px solid blue;
     background: #008adf;
+}
+
+/*È¨Íþ×¨¼Ò*/
+section.title_people{
+    background: #bffcdb;
+    line-height: .44rem;
+    padding-top:.18rem;
+    padding-bottom: .18rem;
+    font-size: .35rem;
+    text-align: center;
+    margin-top: .35rem;
+    margin-bottom: .35rem;
+    color: #960315;
+    font-weight: 900;
 }
