@@ -1,16 +1,11 @@
-* {
-    -webkit-touch-callout: none;
-    -webkit-overflow-scrolling: touch;
-    -webkit-text-size-adjust: 100%;
-    -webkit-user-select: none;
-}
+
 html{
     font-size: 100px;
 }
 html{
     width: 100%;
     background: #ffffff;
-    overflow: hidden;
+    overflow: auto;
 }
 /*main*/
 .main{
@@ -91,13 +86,47 @@ section.banner img{
 section.big_title{
     padding: .15rem .21rem;
 }
-section.big_title{
+
+section span.middle{
     display: block;
     line-height: .60rem;
     text-align: center;
     background: #3399ff;
     font-size: .3rem;
     color: #FFFFFF;
-
-
 }
+
+/*nav*/
+.nav{
+    padding: .03rem .39rem ;
+    overflow: hidden;
+}
+.nav ul{
+    position: relative;
+    left: 50%;
+    width: 5.54rem;
+    margin-left: -2.77rem;
+}
+.nav ul li{
+    float: left;
+    margin: .1rem .037rem 0 .037rem;
+    width: 32%;
+    color: #fc0e04;
+}
+.nav ul li img{
+    display: block;
+    margin: 0 auto;
+    width:1.6rem;
+    height: .9rem;
+    border: .02rem solid #c6c8c7;
+    padding: .04rem;
+}
+.nav ul li h3{
+    text-align: center;
+    padding: .1rem;
+}
+
+
+
+
+
