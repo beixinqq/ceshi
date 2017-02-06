@@ -58,3 +58,7 @@ input,textarea,button,a{
 article,aside,footer,header,main,menu,nav,section{
     display: block;
 }
+p{
+    margin: 0;
+    padding: 0;
+}

@@ -160,4 +160,98 @@ section.ask img{
     height: .27rem;
 }
 
+/*phone*/
+section.phone{
+    position: relative;
+    left: 50%;
+    margin-left: -2.575rem;
+    width: 5.15rem;
+    height: .44rem;
+    /*border: 1px solid red;*/
+    margin-top: .16rem;
+    margin-bottom: .16rem;
+}
+section.phone img{
+    position: absolute;
+    left: 0;
+    width: .49rem;
+    height: .44rem;
+}
+section.phone ul{
+    position: absolute;
+    left: .54rem;
+}
+section.phone .phone_docing{
+    position: absolute;
+    top:0.016rem;
+    left: .55rem;
+
+}
+section.phone span{
+    display: inline-block;
+    width: .71rem;
+    height: .37rem;
+}
+section.phone span:nth-child(1){
+    margin-bottom: .04rem;
+    font-size: .16rem;
+    font-weight: 500;
+}
+section.phone span:nth-child(2){
+    position: absolute;
+    top:.215rem;
+    font-size: .13rem;
+}
+section.phone p{
+    position: absolute;
+    top:.015rem;
+    left:1.35rem;
+    font-size: .31rem;
+    color: #fe756f;
+    font-weight: 800;
+}
+section.phone a{
+    position: absolute;
+    top:0.03rem;
+    right: 0;
+    width: 1.11rem;
+    height: .37rem;
+    text-align: center;
+    font-size: .23rem;
+    background: #ff7670;
+    color: #ffffff;
+    border-radius: 0.05rem;
+}
+section.phone .hr{
+    display: block;
+    position: absolute;
+    top:.6rem;
+    width: 5.15rem;
+    height: .01rem;
+    border: 1px dashed #bbbbbb;
+    background: #dbdbdb;
+}
+
+/*big_title1*/
+section.big_title1{
+    position: relative;
+    top:.4rem;
+    left: 50%;
+    margin-left: -2.6rem;
+    width: 5.2rem;
+    font-size: .33rem;
+    text-align: center;
+    color: #209f70;
+    font-weight: 900;
+}
+section.nav_title{
+    position: relative;
+    top:.52rem;
+    width: 100%;
+    height: 2.39rem;
+}
+section.nav_title img{
+    width: 100%;
+    height: 100%;
+}
 
