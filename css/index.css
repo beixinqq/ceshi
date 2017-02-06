@@ -296,31 +296,53 @@ section.big_title2{
 
 /*÷ÿ∏¥ ∏≤∏« phone2*/
 section.phone2{
+    position: relative;
     top:1.95rem;
+    left: 50%;
+    margin-left: -2.575rem;
+    width: 5.15rem;
+    height: .44rem;
+    margin-bottom: .16rem;
 }
-#phone2_img{
+section.phone2 img{
+    position: absolute;
+    left: 0;
     margin-top: .05rem;
     width: .5rem;
     height: .52rem;
 }
+section.phone2 .phone_docing{
+    position: absolute;
+    left: .54rem;
+}
 section.phone2 .phone_docing span:nth-child(1){
+    display: block;
     width: 2.75rem;
     font-size: .23rem;
     color: #bab9b9;
 }
 section.phone2 .phone_docing span:nth-child(2){
+    position: absolute;
+    top:0.24rem;
+    display: block;
     width: 2.92rem;
     font-size: .30rem;
     letter-spacing: .05rem;
     color: #da251c;
+    font-weight: 500;
 }
 section.phone2 a{
+    position: absolute;
+    top:0.03rem;
+    right: 0;
     width: 1.55rem;
     height: .54rem;
     line-height: .54rem;
     text-align: center;
     background: #00a1e9;
     font-weight: bolder;
+    font-size: .3rem;
+    color: #ffffff;
     letter-spacing: .01rem;
 }
 section.phone2 .phone_title{
@@ -348,5 +370,25 @@ section.phone2 .phone_title:after{
     top:.25rem;
 }
 section.phone2 span.hr{
-    top:1.2rem;
+    display: block;
+    position: absolute;
+    top:1.18rem;
+    width: 5.15rem;
+    height: .01rem;
+    border: 1px dashed #bbbbbb;
+    background: #dbdbdb;
+}
+
+/*img_title*/
+section.img_title{
+    position: relative;
+    top:2.69rem;
+    left: 50%;
+    width: 6.07rem;
+    margin-left: -3.025rem;
+    border: 1px solid red;
+}
+section.img_title img{
+    width:6.07rem;
+    height: .62rem;
 }
