@@ -188,7 +188,7 @@ section.phone .phone_docing{
 
 }
 section.phone span{
-    display: inline-block;
+    display: block;
     width: .71rem;
     height: .37rem;
 }
@@ -244,9 +244,12 @@ section.big_title1{
     color: #209f70;
     font-weight: 900;
 }
+
+/*nav_title*/
 section.nav_title{
     position: relative;
     top:.52rem;
+    bottom: 0;
     width: 100%;
     height: 2.39rem;
 }
@@ -266,8 +269,28 @@ section.nav_title ul li{
     float: left;
     width: 1.28rem;
     font-size: .16rem;
-    color: #bebdbd;
+    color: #595959;
     margin: 0 .12rem .12rem .12rem ;
     line-height: .25rem;
 }
 
+/*big_title2*/
+section.big_title2{
+    position: relative;
+    top:1.57rem;
+    left: 50%;
+    background: #ff6803;
+    width: 4.85rem;
+    margin-left: -2.405rem;
+    text-align: center;
+    line-height: .58rem;
+    font-size: .22rem;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+/*÷ÿ∏¥ phone2*/
+section.photo2{
+    position: relative;
+    top:.2rem;
+}
