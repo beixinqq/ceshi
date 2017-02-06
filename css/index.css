@@ -189,8 +189,7 @@ section.phone .phone_docing{
 }
 section.phone .phone_docing span{
     display: block;
-    width: .77rem;
-    height: .37rem;
+    width: .80rem;
 }
 section.phone .phone_docing span:nth-child(1){
     margin-bottom: .04rem;
