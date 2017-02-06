@@ -2,7 +2,7 @@
 html{
     font-size: 100px;
 }
-html{
+html,body{
     width: 100%;
     background: #ffffff;
     overflow-x: hidden;
