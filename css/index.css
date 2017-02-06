@@ -147,7 +147,7 @@ section.ask span.ask_title{
 section.ask span.bottom_hr{
     display: block;
     position: absolute;
-    top:.58rem;
+    top:.575rem;
     width: 4.5rem;
     text-align: center;
     border-bottom: 3px solid #94b6ff;
