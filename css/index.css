@@ -6,6 +6,9 @@ html,body{
     width: 100%;
     background: #ffffff;
     overflow-x: hidden;
+    border: 1px solid red;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 /*main*/
 .main{
