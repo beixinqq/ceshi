@@ -539,3 +539,34 @@ section.title_people{
     color: #960315;
     font-weight: 900;
 }
+/*img_money*/
+section.img_money{
+    position: relative;
+    left:50%;
+    margin-left: -2.69rem;
+    width: 5.38rem;
+
+    margin-top: .33rem;
+    margin-bottom: .33rem;
+}
+
+/*œ÷‘⁄‘§‘º*/
+section.img_money img{
+    width: 5.38rem;
+    height: .91rem;
+}
+
+/*big_title*/
+section.big_title4{
+    position: relative;
+    top:0.5rem;
+    margin-bottom: .3rem;
+    width: 100%;
+    height:.61rem ;
+    background: #ff6633;
+    text-align: center;
+    line-height: .61rem;
+    font-size: .3rem;
+    color: #ffffff;
+    font-weight: 700;
+}
