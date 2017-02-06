@@ -7,6 +7,7 @@ html,body{
     background: #ffffff;
     overflow-x: hidden;
     border: 1px solid red;
+    /*◊¢“‚*/
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
@@ -165,12 +166,13 @@ section.ask img{
 /*phone*/
 section.phone{
     position: relative;
+    top:.15rem;
     left: 50%;
     margin-left: -2.575rem;
     width: 5.15rem;
     height: .44rem;
     /*border: 1px solid red;*/
-    margin-top: .16rem;
+    /*margin-top: .16rem;*/
     margin-bottom: .16rem;
 }
 section.phone img{
@@ -218,6 +220,7 @@ section.phone a{
     right: 0;
     width: 1.11rem;
     height: .37rem;
+    line-height: .37rem;
     text-align: center;
     font-size: .23rem;
     background: #ff7670;
@@ -291,8 +294,59 @@ section.big_title2{
     font-weight: 900;
 }
 
-/*÷ÿ∏¥ phone2*/
-section.photo2{
+/*÷ÿ∏¥ ∏≤∏« phone2*/
+section.phone2{
+    top:1.95rem;
+}
+#phone2_img{
+    margin-top: .05rem;
+    width: .5rem;
+    height: .52rem;
+}
+section.phone2 .phone_docing span:nth-child(1){
+    width: 2.75rem;
+    font-size: .23rem;
+    color: #bab9b9;
+}
+section.phone2 .phone_docing span:nth-child(2){
+    width: 2.92rem;
+    font-size: .30rem;
+    letter-spacing: .05rem;
+    color: #da251c;
+}
+section.phone2 a{
+    width: 1.55rem;
+    height: .54rem;
+    line-height: .54rem;
+    text-align: center;
+    background: #00a1e9;
+    font-weight: bolder;
+    letter-spacing: .01rem;
+}
+section.phone2 .phone_title{
+    position: relative;
+    top:.6rem;
+    left: .9rem;
+    font-size: .26rem;
+    padding-top: .06rem;
+}
+section.phone2 .phone_title:before,section.phone2 .phone_title:after{
+    content: '';
+    width: .28rem;
+    height: .025rem;
+    background-color: #252525;
+}
+section.phone2 .phone_title:before{
     position: absolute;
-    top:0;
+    top:.25rem;
+    left:-.28rem;
+    margin-left: -.11rem;
+}
+section.phone2 .phone_title:after{
+   position: absolute;
+    right:-.35rem;
+    top:.25rem;
+}
+section.phone2 span.hr{
+    top:1.2rem;
 }
