@@ -10,7 +10,7 @@ html,body{
 /*main*/
 .main{
     margin: 0 auto;
-    max-width: 640px;
+    max-width: 6.4rem;
 }
 a{
     display: block;
@@ -290,6 +290,6 @@ section.big_title2{
 
 /*÷ÿ∏¥ phone2*/
 section.photo2{
-    position: relative;
-    top:.2rem;
+    position: absolute;
+    top:0;
 }
