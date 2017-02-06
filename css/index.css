@@ -251,7 +251,23 @@ section.nav_title{
     height: 2.39rem;
 }
 section.nav_title img{
+    display: block;
     width: 100%;
     height: 100%;
+}
+section.nav_title ul{
+    position: absolute;
+    top:2.45rem;
+    left: 50%;
+    margin-left: -2.96rem;
+    width: 592rem;
+}
+section.nav_title ul li{
+    float: left;
+    width: 1.28rem;
+    font-size: .16rem;
+    color: #bebdbd;
+    margin: 0 .12rem .12rem .12rem ;
+    line-height: .25rem;
 }
 
