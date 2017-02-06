@@ -1,0 +1,78 @@
+* {
+    -webkit-touch-callout: none;
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: 100%;
+    -webkit-user-select: none;
+}
+html{
+    font-size: 100px;
+}
+html{
+    width: 100%;
+    background: #ffffff;
+    overflow: hidden;
+}
+/*main*/
+.main{
+    margin: 0 auto;
+    max-width: 640px;
+
+}
+a{
+    display: block;
+    color: #555;
+}
+/*header*/
+.header{
+    position: relative;
+    top:0;
+    left: 0;
+    height: 1.54rem;
+    border: 1px solid red;
+}
+/*logo*/
+.header .logo{
+    float: left;
+    margin-left: .65rem;
+    margin-top: .28rem;
+    width: .97rem;
+    height: .97rem;
+    /*border: 1px solid red;*/
+}
+.header .logo img{
+    width: 100%;
+    height: 100%;
+}
+.header .logo_title{
+    position: absolute;
+    top:.35rem;
+    left: 2.06rem;
+    color: #986536;
+
+}
+.header .logo_title h2{
+    letter-spacing: .12rem;
+    font-size: .40rem;
+}
+.header .logo_title h4{
+    position: absolute;
+    left:.52rem;
+    font-size: .25rem;
+}
+.header .logo_title h4:before,.header .logo_title h4:after{
+    content: '';
+    position: absolute;
+    width: .52rem;
+    height: .05rem;
+    top:.15rem;
+}
+.header .logo_title h4:before{
+    left: -.53rem;
+    background: url("../img/hr-left.png") no-repeat 0 0;
+
+}
+.header .logo_title h4:after{
+    right: -.53rem;
+    background: url("../img/hr-right.png") no-repeat 0 0;
+
+}
