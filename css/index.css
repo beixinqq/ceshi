@@ -200,7 +200,7 @@ section.phone span:nth-child(1){
 section.phone span:nth-child(2){
     position: absolute;
     top:.215rem;
-    font-size: .13rem;
+    font-size: .12rem;
 }
 section.phone p{
     position: absolute;
