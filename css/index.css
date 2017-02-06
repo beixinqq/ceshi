@@ -5,13 +5,12 @@ html{
 html{
     width: 100%;
     background: #ffffff;
-    overflow: auto;
+    overflow-x: hidden;
 }
 /*main*/
 .main{
     margin: 0 auto;
     max-width: 640px;
-
 }
 a{
     display: block;
@@ -187,16 +186,17 @@ section.phone .phone_docing{
     left: .55rem;
 
 }
-section.phone .phone_docing span{
+
+section.phone .phone_docing span:nth-child(1){
     display: block;
     width: .80rem;
-}
-section.phone .phone_docing span:nth-child(1){
     margin-bottom: .04rem;
     font-size: .16rem;
     font-weight: 500;
 }
 section.phone .phone_docing span:nth-child(2){
+    display: block;
+    width: .80rem;
     position: absolute;
     top:.215rem;
     font-size: .13rem;
