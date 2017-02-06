@@ -187,20 +187,20 @@ section.phone .phone_docing{
     left: .55rem;
 
 }
-section.phone span{
+section.phone .phone_docing span{
     display: block;
     width: .77rem;
     height: .37rem;
 }
-section.phone span:nth-child(1){
+section.phone .phone_docing span:nth-child(1){
     margin-bottom: .04rem;
     font-size: .16rem;
     font-weight: 500;
 }
-section.phone span:nth-child(2){
+section.phone .phone_docing span:nth-child(2){
     position: absolute;
     top:.215rem;
-    font-size: .12rem;
+    font-size: .13rem;
 }
 section.phone p{
     position: absolute;
