@@ -518,8 +518,6 @@ section.titleRL a.left{
     float: left;
     /*border: 1px solid blue;*/
     background: #f27700;
-
-
 }
 section.titleRL a.right{
     float: right;
@@ -570,3 +568,121 @@ section.big_title4{
     color: #ffffff;
     font-weight: 700;
 }
+
+/*big_title*/
+/*nav_summary*/
+section.nav_summary{
+    margin-top: .85rem;
+    width: 100%;
+    height:2.88rem;
+    border: 1px solid red;
+    color: red;
+;
+}
+
+section.titleRL1{
+    position: relative;
+    left:50%;
+    margin-top: .33rem;
+    margin-bottom: .33rem;
+    width: 5.76rem;
+    height: .62rem;
+    margin-left: -2.88rem;
+}
+section.titleRL1 a{
+    width: 2.7rem;
+    height: .6rem;
+    line-height: .58rem;
+    color: #ffffff;
+}
+section.titleRL1 a.left{
+    float: left;
+    background: #f8931f;
+}
+section.titleRL1 a.right{
+    float: right;
+    background: #f8659c;
+}
+section.titleRL1 a.left img{
+    float: left;
+    display: block;
+    margin-top: .1rem;
+    margin-left: .13rem;
+    width: .25rem;
+    height: .41rem;
+}
+section.titleRL1 a.right img{
+    float: left;
+    margin-top: .1rem;
+    margin-left: .17rem;
+    margin-right: .23rem;
+    width: .35rem;
+    height: .39rem;
+}
+section.titleRL1 a h2{
+    float: left;
+    margin-left: .07rem;
+    font-size: .28rem;
+}
+
+section#phone2{
+    position: relative;
+    top:.15rem;
+}
+
+section.img_board{
+    position: relative;
+    top:1rem;
+    left: 50%;
+    margin-left: -2.6rem;
+    width: 5.2rem;
+    height: 1.76rem;
+    background: url("../img/img_borad.png") no-repeat 0 0;
+    background-size: 100% 100%;
+    margin-bottom: .2rem;
+}
+
+footer{
+    background: #3399fe;
+    margin-top: 1.2rem;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+footer .nav_text{
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    overflow: hidden;
+}
+footer .nav_text a{
+    display: block;
+    float: left;
+    width: 24.4%;
+    font-size: .3rem;
+    color: #ffffff;
+    border-right: 1px solid #2c84db ;
+}
+footer .nav_text a:last-child{
+    border-right: none;
+}
+footer .phoneText{
+    width: 100%;
+}
+footer .phoneText p{
+    float: left;
+    padding-left: 12.2%;
+    font-size: .18rem;
+    letter-spacing: .01rem;
+    padding-bottom: .21rem;
+}
+
+footer p.dizhi{
+    font-size: .20rem;
+    padding-top: ;
+}
+footer p.padding{
+    padding-top: .14rem;
+    padding-bottom: .37rem;
+}
+
