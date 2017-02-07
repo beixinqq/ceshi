@@ -747,12 +747,14 @@ section.img_title_board div:nth-child(2){
 section.img_title_board div:nth-child(2) h4{
     position: relative;
     left: 50%;
-    margin-left: -1.09rem;
+    margin-left: -1.08rem;
     text-align: center;
-    width: 2.18rem;
+    width: 2.16rem;
     height: .4rem;
     line-height: .4rem;
     background: #edebdf;
+    font-size: .17rem;
+    color: #c0051a;
 }
 section.img_title_board div:nth-child(2) p{
     margin-top: 0.15rem;
