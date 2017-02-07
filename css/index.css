@@ -228,6 +228,7 @@ section.phone a{
     background: #ff7670;
     color: #ffffff;
     border-radius: 0.05rem;
+    border: .02rem solid #d0d0d0;
 }
 section.phone .hr{
     display: block;
@@ -486,6 +487,8 @@ section.nav_thing{
     height: 5.30rem;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    background: url("../img/img2.png") no-repeat 0 0;
+    background-size: 100% 100%;
 }
 
 /*titeleRL*/
@@ -576,8 +579,9 @@ section.nav_summary{
     margin-top: .85rem;
     width: 100%;
     height:2.88rem;
-    border: 1px solid red;
     color: red;
+    background: url("../img/img_summary.png") no-repeat 0 0;
+    background-size: 100% 100%;
 ;
 }
 
@@ -686,3 +690,77 @@ footer p.padding{
     padding-bottom: .37rem;
 }
 
+/*¼ò½é-img_title_board*/
+section.img_title_board{
+    position: relative;
+    top:0.5rem;
+    margin-bottom: .3rem;
+    width: 100%;
+    height: 2.91rem;
+    /*border: 1px solid red ;*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+section.img_title_board div:nth-child(1){
+    position: absolute;
+    top:.02rem;
+    left:.1rem;
+}
+section.img_title_board div:nth-child(1) img{
+    display: block;
+    margin-top: .08rem;
+    width: 3.41rem;
+    height: 2.11rem;
+    background: url("../img/img10.png") no-repeat ;
+    background-size: 100% 100%;
+}
+section.img_title_board div:nth-child(1) ul{
+    margin-top: .11rem;
+}
+section.img_title_board div:nth-child(1) ul li{
+    float: left;
+    margin-left: .03rem;
+    margin-right: .03rem;
+    width: .79rem;
+    height: .59rem;
+    background-size: 100% 100%;
+}
+section.img_title_board div:nth-child(1) ul li:nth-of-type(1){
+    background: url("../img/img11.png") no-repeat 0 0;
+}
+section.img_title_board div:nth-child(1) ul li:nth-of-type(2){
+    background: url("../img/img11.png") no-repeat 0 0;
+}
+section.img_title_board div:nth-child(1) ul li:nth-of-type(3){
+    background: url("../img/img11.png") no-repeat 0 0;
+}
+section.img_title_board div:nth-child(1) ul li:nth-of-type(4){
+    background: url("../img/img11.png") no-repeat 0 0;
+}
+
+section.img_title_board div:nth-child(2){
+    position: absolute;
+    left: 3.63rem;
+    width: 2.67rem;
+    height: 2.76rem;
+}
+section.img_title_board div:nth-child(2) h4{
+    position: relative;
+    left: 50%;
+    margin-left: -1.06rem;
+    text-align: center;
+    width: 2.12rem;
+    height: .4rem;
+    line-height: .4rem;
+    background: #edebdf;
+}
+section.img_title_board div:nth-child(2) p{
+    margin-top: 0.15rem;
+    font-size: .178rem;
+    line-height: .27rem;
+    text-indent: .26rem;
+
+}
+section.img_title_board div:nth-child(2) p span{
+    color: red;
+}
