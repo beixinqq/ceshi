@@ -7,7 +7,8 @@ html,body{
     height: 100%;
     background: #ffffff;
     overflow-x: hidden;
-    border: 1px solid red;
+    /*·ÀÖ¹³ö´í*/
+    /*border: 1px solid red;*/
     /*×¢Òâ*/
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -679,7 +680,6 @@ footer .phoneText p{
 
 footer p.dizhi{
     font-size: .20rem;
-    padding-top: ;
 }
 footer p.padding{
     padding-top: .14rem;
