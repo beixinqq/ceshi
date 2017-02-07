@@ -723,19 +723,22 @@ section.img_title_board div:nth-child(1) ul li{
     margin-right: .03rem;
     width: .79rem;
     height: .59rem;
+}
+section.img_title_board div:nth-child(1) ul li:nth-of-type(1) {
+    background: url("../img/img11.png") no-repeat 0 0;
     background-size: 100% 100%;
 }
-section.img_title_board div:nth-child(1) ul li:nth-of-type(1){
+section.img_title_board div:nth-child(1) ul li:nth-of-type(2) {
     background: url("../img/img11.png") no-repeat 0 0;
+    background-size: 100% 100%;
 }
-section.img_title_board div:nth-child(1) ul li:nth-of-type(2){
+section.img_title_board div:nth-child(1) ul li:nth-of-type(3) {
     background: url("../img/img11.png") no-repeat 0 0;
+    background-size: 100% 100%;
 }
-section.img_title_board div:nth-child(1) ul li:nth-of-type(3){
+section.img_title_board div:nth-child(1) ul li:nth-of-type(4) {
     background: url("../img/img11.png") no-repeat 0 0;
-}
-section.img_title_board div:nth-child(1) ul li:nth-of-type(4){
-    background: url("../img/img11.png") no-repeat 0 0;
+    background-size: 100% 100%;
 }
 
 section.img_title_board div:nth-child(2){
